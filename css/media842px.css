@@ -1,0 +1,13 @@
+#header .container #navbar ul{
+  height: 110px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#header .container #navbar ul h1{
+  font-size: 1.3rem;
+  width: 292px;
+}
+
+
+ 

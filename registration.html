@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGISTER</title>
+  <meta name="keywords" content="veterinary,register">
+  <meta name="description" content="Çağlar Akman Veterinary Clinic">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- @media -->
+  <link rel="stylesheet" media="(max-width:1122px)" href="css/media1122px.css">
+  <link rel="stylesheet" media="(max-width:1019px)" href="css/media1019px.css">
+  <link rel="stylesheet" media="(max-width:907px)" href="css/media907px.css">
+  <link rel="stylesheet" media="(max-width:842px)" href="css/media842px.css">
+  <link rel="stylesheet" media="(max-width:700px)" href="css/media700px.css">
+  <link rel="stylesheet" media="(max-width:415px)" href="css/media415px.css">
+  <!-- font awesone icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="container">
+      <nav id="navbar">
+        <ul class="nav nav-pills align-items-center">
+          <h1 class="nav-item">Çağlar Akman Veterinary Clinic</h1>
+          <div class="d-flex ">
+            <li class="nav-item"><a class="nav-link " href="index.html">HOMEPAGE</a></li>
+            <li class="nav-item"><a class="nav-link " href="blog.html">BLOG</a></li>
+            <li class="nav-item"><a class="nav-link " href="services.html">OUR SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link " href="team.html">OUR TEAM</a></li>
+            <li class="nav-item"><a class="nav-link " href="gallery.html">GALLERY</a></li>
+            <li class="nav-item"><a class="nav-link " href="contactme.html">CONTACT ME </a></li>
+            <li class="nav-item"><a class="nav-link active" href="registration.html">REGISTER</a></li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="search">
+    <div class="container ">
+      <form action="https://www.google.com/search" method="get" target="_blank"
+        class="contact-form d-flex align-items-center">
+        <div class="d-flex align-items-center">
+          <input name="q" type="text" placeholder="Search in Google">
+          <button class="btn">
+            <span><i class="fas fa-search"></i></span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="register">
+    <div class="container ">
+      <form method="POST" name="registration">
+        <h3>Your Information</h3>
+        <hr>
+        <div class="form-group form-row">
+          <label class="col-md-6" for="name">Name(Middle Name)Surname</label>
+          <input type="text" id="name" name="name" class="form-control col-md-6 " placeholder="name">
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6" for="password">Password</label>
+          <input type="password" id="password" name="password" class="form-control col-md-6" placeholder="password">
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6" for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control col-md-6" placeholder="email">
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6" for="date">Date of Birth</label>
+          <input type="date" id="date" name="date" class="form-control col-md-6" max="2020-05-01" min="1905-01-01">
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6" for="usrtel">Telephone</label>
+          <input type="tel" id="usrtel" name="usrtel" class="form-control col-md-6" maxlength="11"
+            placeholder="05123456789">
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6" for="department">Department</label>
+          <select name="department" id="department" class="form-control col-md-6">
+            <option value="" selected>Seçiniz</option>
+            <option value="">Teacher</option>
+            <option value="">Engineer</option>
+            <option value="">Dentist</option>
+            <option value="">Doctor</option>
+            <option value="">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6">Gender</label>
+          <div class="col-md-6">
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+          </div>
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6" for="message">About Me</label>
+          <textarea name="message" id="message" class="form-control col-md-6" style="resize:none" rows="3"
+            placeholder="about me"></textarea>
+        </div>
+
+        <div class="form-group form-row">
+          <label class="col-md-6">Upload Your Photo</label>
+          <input type="file" id="file" name="file" class=" col-md-6 ">
+        </div>
+
+        <div class="form-group ">
+          <label class="">Mark Your Interests</label>
+          <hr>
+          <div class="form-row ">
+            <div class=" col-md-6">
+              <input type="checkbox" id="autos" name="autos">
+              <label for="autos">Autos and Vechiles</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="comedy" name="comedy">
+              <label for="comedy">Comedy</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="education" name="education">
+              <label for="education">Education</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="film" name="film">
+              <label for="film">Film and Animation</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="gaming" name="gaming">
+              <label for="gaming">Gaming</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="music" name="music">
+              <label for="music">Music</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="politics" name="politics">
+              <label for="politics">Politics</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="pets" name="pets">
+              <label for="pets">Pets and Animals</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="tech" name="tech">
+              <label for="tech">Science and Technology</label>
+            </div>
+            <div class="col-md-6">
+              <input type="checkbox" id="sports" name="sports">
+              <label for="sports">Sports</label>
+            </div>
+
+          </div>
+        </div>
+        <a class="btn btn-block form-control" onclick="return validateRegister()" href="submit.html"
+          role="button">Submit</a>
+        <button type="reset" class="btn btn-block form-control">Reset</button>
+        <a class="btn btn-block" href="index.html" role="button">
+          <span><i class="fas fa-home"></i></span>
+        </a>
+      </form>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p> &copy; Telif Hakkı 2020 &nbsp;&nbsp;|&nbsp;&nbsp; Tüm Hakları Saklıdır &nbsp;&nbsp;|&nbsp;&nbsp; Çağlar Akman
+    </p>
+  </footer>
+
+  <!-- bootstap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

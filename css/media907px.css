@@ -1,0 +1,19 @@
+#header .container #navbar ul h1{
+  font-size: 1.2rem;
+  width: 142px;
+}
+#header .container #navbar ul li a{
+  font-size: 1rem;
+}
+
+#videos .container .video{
+  justify-content: center;
+  width:70%;
+  max-width: 600px;
+  margin: 1rem 0;
+  min-width: 0px;
+}
+#videos .container{
+  flex-wrap: wrap;
+  justify-content: center;
+}

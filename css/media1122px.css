@@ -1,0 +1,16 @@
+#header .container #navbar ul{
+  height: 70px;
+  justify-content: space-between;
+}
+#header .container #navbar ul h1{
+  font-size: 1.3rem;
+  width: 154px;
+}
+#header .container #navbar ul li a{
+  font-size: 1.1rem;
+}
+
+#services .container div{
+  justify-content: center;
+  flex-wrap: wrap;
+}

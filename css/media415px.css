@@ -1,0 +1,34 @@
+#header .container #navbar ul{
+  height: 190px;
+}
+
+#search{
+  margin: 1rem 0.5rem;
+  padding: 0.20rem;
+}
+#search .container div{
+  padding: 0.20rem 0.30rem ;
+
+}
+#search .container div input{
+  width: 200px;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+
+#footer  p{
+  font-size: 0.6rem;
+ 
+}
+#videos .container .video iframe{
+  width:100%;
+  height: 270px;
+  min-width: 300px;
+}
+#gallery .container .photos div{
+  width: 85%;
+}
+#gallery .container .audios div{
+  width: 85%;
+}

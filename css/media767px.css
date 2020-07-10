@@ -1,0 +1,11 @@
+#team .container .card {
+  font-size: 0.8rem;
+}
+#team .card .col-md-3 {
+  max-width: 0;
+}
+#team .card .col-md-9 {
+  max-width: 100%;
+}
+
+

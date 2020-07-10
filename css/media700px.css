@@ -1,0 +1,23 @@
+#header .container #navbar ul{
+  height: 150px;
+}
+#header .container #navbar ul div{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#search .container form{
+  justify-content: center;
+}
+
+#videos .container .video{
+  max-width: 455px;
+  width:100%;
+}
+
+#gallery .container .photos div{
+  width: 70%;
+}
+#gallery .container .audios div{
+  width: 70%;
+}
