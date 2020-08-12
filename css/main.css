@@ -9,6 +9,7 @@ a{
 }
 body{
   background-image: url(sidelight-green-background.jpg);
+  background-size: cover;
 }
 /* header */
 #header{
